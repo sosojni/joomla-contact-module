@@ -29,13 +29,13 @@
                 <field 
                     name="from_name"
                     type="text"
-                    default="Rapid Contact"
+                    default="Razor Contact"
                     label="Mail From Name"
                     description="The name of the message's sender" />
                 <field 
                     name="from_email"
                     type="text"
-                    default="rapid_contact@yoursite.com"
+                    default="razor_contact@yoursite.com"
                     label="Mail From Email"
                     description="The email of the message's sender" />          
                 <field 
@@ -271,7 +271,7 @@
                     type="radio"
                     default="1"
                     label="Disable HTTPS"
-                    description="This is an advanced option about the url retrieval way. Please enable it if Rapid Contact posts in https and your site is http.">
+                    description="This is an advanced option about the url retrieval way. Please enable it if Razor Contact posts in https and your site is http.">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </field>       
@@ -280,7 +280,7 @@
                     type="radio"
                     default="0"
                     label="Fixed URL"
-                    description="A simple solution to people that want to use Rapid Contact in an exact page. Change this to Yes and write the URL of Rapid Contact in the Fixed URL Address parameter">
+                    description="A simple solution to people that want to use Razor Contact in an exact page. Change this to Yes and write the URL of Razor Contact in the Fixed URL Address parameter">
                     <option value="0">No</option>
                     <option value="1">Yes</option>        
                 </field>        
@@ -289,7 +289,7 @@
                     type="text"
                     default=""
                     label="Fixed URL Address"
-                    description="If fixed url is true, this address is used for Rapid Contact to post itself."/>
+                    description="If fixed url is true, this address is used for Razor Contact to post itself."/>
                 <field 
                 	 name="spacer4" 
                 	 type="spacer" 
@@ -322,7 +322,7 @@
         type="radio"
         default="0"
         label="Anti-Spam Position"
-        description="The anti-spam position, relative to the Rapid Contact form.">
+        description="The anti-spam position, relative to the Razor Contact form.">
             <option value="0">Before</option>
             <option value="1">After</option>        
         </field>                   
